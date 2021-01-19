@@ -14,5 +14,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toast.makeText(this,"La app funciona de manera local, es necesario otorgar permiso de lectura de dispositivo",Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"La app funciona de manera local, es necesario otorgar permiso de lectura de dispositivo",Toast.LENGTH_LONG).show();
     }
 }
