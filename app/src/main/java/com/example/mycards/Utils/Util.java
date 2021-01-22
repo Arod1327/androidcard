@@ -11,4 +11,5 @@ public class Util {
     public static String getUKeyPrefs(SharedPreferences preferences){
         return preferences.getString("keypass","");
     }
+    //nada
 }
