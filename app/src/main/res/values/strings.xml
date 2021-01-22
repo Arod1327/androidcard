@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">MyCards</string>
+    <string name="app_name">Mis Tarjetas</string>
+    <string name="aviso_aplicacion">Es necesario otorgar permiso de lectura de dispositivo, ya que la información se almacena de manera local</string>
 </resources>

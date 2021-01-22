@@ -10,6 +10,6 @@ public class CardActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);//Cambiar por su layout
+        setContentView(R.layout.activity_card);
     }
 }
