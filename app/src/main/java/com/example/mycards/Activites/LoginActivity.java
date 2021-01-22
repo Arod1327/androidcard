@@ -7,12 +7,12 @@ import android.widget.Toast;
 
 import com.example.mycards.R;
 
-public class MainActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        //nada
+        setContentView(R.layout.activity_login);
+        //será utilizado para el login del usuario
     }
 }
