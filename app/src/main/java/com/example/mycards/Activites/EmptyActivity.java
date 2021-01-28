@@ -11,6 +11,6 @@ public class EmptyActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_empty);
-        //nada
+        //Contenido pendiente por desarrollar
     }
 }
