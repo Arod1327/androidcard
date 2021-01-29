@@ -2,8 +2,8 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.deshpande.conavipromtec.Activities.tdActivity">
-    <item android:id="@+id/action_tasknew" android:title="@string/TitleMenu" app:showAsAction="collapseActionView|ifRoom" />
+    tools:context="com.example.mycards.Activites.CardActivity">
+    <item android:id="@+id/action_menu" android:title="@string/TitleMenu" app:showAsAction="collapseActionView|ifRoom" />
     <item
         android:id="@+id/menu_logout"
         android:title="@string/TitleLogout"
@@ -13,6 +13,6 @@
         android:title="@string/TitleForgetAndLogout"
         app:showAsAction="never" />
 
-    <item android:id="@+id/action_about" android:title="@string/TitleAboutThisApp"
+    <item android:id="@+id/menu_about" android:title="@string/TitleAboutThisApp"
         android:orderInCategory="100" app:showAsAction="never" />
 </menu>

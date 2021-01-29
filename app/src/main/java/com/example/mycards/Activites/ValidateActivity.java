@@ -24,8 +24,10 @@ public class ValidateActivity extends AppCompatActivity {
         Intent intentCards = new Intent(this, CardActivity.class);
         if(!TextUtils.isEmpty(Util.getUNamePrefs(prefs)) &&
             !TextUtils.isEmpty(Util.getUKeyPrefs(prefs))){
+            //intentCards.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);//Revisar
             startActivity(intentCards);
         }else{
+            //intentLogin.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);//Revisar
             startActivity(intentLogin);
         }
         finish();

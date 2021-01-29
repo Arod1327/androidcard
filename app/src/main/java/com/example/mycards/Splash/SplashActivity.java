@@ -41,6 +41,7 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intentValidate = new Intent(context, ValidateActivity.class);
+                //intentValidate.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);//Revisar
                 startActivity(intentValidate);
                 finish();
             }

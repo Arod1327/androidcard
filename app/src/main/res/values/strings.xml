@@ -1,10 +1,14 @@
 <resources>
     <string name="app_name">Mis Tarjetas</string>
+    <string name="numversion">1.0</string>
+
+
+
     <string name="TitleLoginActivity">Inicio de sesión</string>
     <string name="TitleEmptyActivity">Sin tarjetas guardadas</string>
     <string name="TitleCardActivity">Mis Tarjetas</string>
 
-    <string name="aviso_aplicacion">Es necesario otorgar permiso de lectura de dispositivo, ya que la información se almacena de manera local</string>
+    <string name="Message_Application">Es necesario otorgar permiso de lectura de dispositivo, ya que la información se almacena de manera local</string>
 
     <string name="Hint_Username">Nombre del usuario</string>
     <string name="Hint_Password">Contraseña</string>

@@ -17,9 +17,8 @@ public class LoginActivity extends AppCompatActivity {
 
     private static final String TAG = "MyCardsApp";
 
-    public String user, password;
-    public String numversion="1.0";
     private SharedPreferences prefrs;
+    public String user, password;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
