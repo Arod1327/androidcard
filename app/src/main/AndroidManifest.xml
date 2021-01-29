@@ -29,6 +29,9 @@
         <activity android:name=".Activites.CardActivity"
             android:label="@string/TitleCardActivity"
             android:screenOrientation="portrait"></activity>
+        <meta-data
+            android:name="com.bugsnag.android.API_KEY"
+            android:value="a34b7b30ae04736ecee450e899a52c53"/>
     </application>
 
 </manifest>

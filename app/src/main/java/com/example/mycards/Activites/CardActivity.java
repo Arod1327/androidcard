@@ -1,5 +1,6 @@
 package com.example.mycards.Activites;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -11,16 +12,30 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.bugsnag.android.Bugsnag;
 import com.example.mycards.R;
+import com.example.mycards.Utils.Util;
 
 public class CardActivity extends AppCompatActivity {
     private SharedPreferences prefrs;
-    //public String nameuser="";
+    public String nameuser="";
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_card);
+
+        prefrs = getSharedPreferences("Preferences", Context.MODE_PRIVATE);
+        nameuser = Util.getUNamePrefs(prefrs);
+        String imeino="007";
+        String mailto="aspenkaeltas@gmail.com";
+        Bugsnag.start(this);
+        Bugsnag.setUser(
+                imeino,
+                mailto,
+                Util.getUNamePrefs(prefrs)
+        );
+        Bugsnag.notify(new RuntimeException("Test error"));
     }
 
     @Override
@@ -54,7 +69,7 @@ public class CardActivity extends AppCompatActivity {
     /**Functions*/
     /**Function to logout of appliation*/
     private void logOut(){
-        Intent intentLogout = new Intent();
+        Intent intentLogout = new Intent(this, LoginActivity.class);
         intentLogout.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(intentLogout);
     }

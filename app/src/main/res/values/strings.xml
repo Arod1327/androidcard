@@ -2,22 +2,26 @@
     <string name="app_name">Mis Tarjetas</string>
     <string name="numversion">1.0</string>
 
-
-
+    <!-- Titles Activities -->
     <string name="TitleLoginActivity">Inicio de sesión</string>
     <string name="TitleEmptyActivity">Sin tarjetas guardadas</string>
     <string name="TitleCardActivity">Mis Tarjetas</string>
 
+    <!-- Text Message Activities -->
     <string name="Message_Application">Es necesario otorgar permiso de lectura de dispositivo, ya que la información se almacena de manera local</string>
 
+    <!-- Hints Activities -->
     <string name="Hint_Username">Nombre del usuario</string>
     <string name="Hint_Password">Contraseña</string>
 
+    <!-- Label Activities -->
     <string name="LabelBtnLogin">Login</string>
     <string name="LabelBtnNext">Continuar</string>
 
+    <!-- Titles Menu -->
     <string name="TitleMenu">Menú</string>
     <string name="TitleLogout">Salir</string>
     <string name="TitleForgetAndLogout">Salir y Olvidar</string>
     <string name="TitleAboutThisApp">Acerca de la aplicación</string>
+
 </resources>
